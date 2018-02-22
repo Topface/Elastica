@@ -1,5 +1,5 @@
 {
-    "name": "ruflin/elastica",
+    "name": "Topface/elastica",
     "description": "Elasticsearch Client",
     "keywords": ["search","client"],
     "homepage": "http://elastica.io/",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Elastica\\": "lib/Elastica/"
+            "TestElastica\\": "lib/TestElastica/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elastica\\Test\\": "test/Elastica/"
+            "TestElastica\\Test\\": "test/TestElastica/"
         }
     },
     "extra": {
