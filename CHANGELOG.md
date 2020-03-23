@@ -15,6 +15,13 @@ All notable changes to this project will be documented in this file based on the
 ### Deprecated
 
 
+## [6.0.2](https://github.com/ruflin/Elastica/compare/6.0.1...6.0.2)
+
+### Bugfixes
+
+- Fix count function type mismatch errors
+
+
 ## [6.0.1](https://github.com/ruflin/Elastica/compare/6.0.0...6.0.1)
 
 ### Bugfixes
