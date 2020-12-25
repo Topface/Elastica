@@ -1,5 +1,5 @@
 {
-    "name": "Topface/elastica",
+    "name": "topface/elastica",
     "description": "Elasticsearch Client",
     "keywords": ["search","client"],
     "homepage": "http://elastica.io/",
