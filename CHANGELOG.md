@@ -14,6 +14,9 @@ All notable changes to this project will be documented in this file based on the
 
 ### Deprecated
 
+## [6.1.0]
+### Changed
+- Lowercase composer name
 
 ## [6.0.2](https://github.com/ruflin/Elastica/compare/6.0.1...6.0.2)
 
