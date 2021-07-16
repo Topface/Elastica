@@ -38,8 +38,8 @@ class Scroll implements \Iterator
      */
     protected $_options = [null, null];
 
-    private $totalPages = 0;
-    private $currentPage = 0;
+    protected $totalPages = 0;
+    protected $currentPage = 0;
 
     /**
      * Constructor.
