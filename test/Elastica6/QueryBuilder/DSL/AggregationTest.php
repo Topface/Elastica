@@ -42,6 +42,7 @@ class AggregationTest extends AbstractDSLTest
         $this->_assertImplemented($aggregationDSL, 'missing', Aggregation\Missing::class, ['name', 'field']);
         $this->_assertImplemented($aggregationDSL, 'nested', Aggregation\Nested::class, ['name', 'path']);
         $this->_assertImplemented($aggregationDSL, 'percentiles', Aggregation\Percentiles::class, ['name']);
+        $this->_assertImplemented($aggregationDSL, 'percentiles_bucket', Aggregation\PercentilesBucket::class, ['name']);
         $this->_assertImplemented($aggregationDSL, 'range', Aggregation\Range::class, ['name']);
         $this->_assertImplemented($aggregationDSL, 'reverse_nested', Aggregation\ReverseNested::class, ['name']);
         $this->_assertImplemented($aggregationDSL, 'scripted_metric', Aggregation\ScriptedMetric::class, ['name']);
