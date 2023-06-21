@@ -61,6 +61,7 @@ class Version240 extends Version
         'value_count',
         'percentiles',
         'percentile_ranks',
+        'percentiles_bucket',
         'cardinality',
         'geo_bounds',
         'top_hits',
