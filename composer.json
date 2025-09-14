@@ -13,11 +13,11 @@
     ],
     "require": {
         "php": "^8.0",
-        "psr/log": "^3.0",
+        "psr/log": "^2.0|^3.0",
         "elasticsearch/elasticsearch": "^6.0"
     },
     "require-dev": {
-        "aws/aws-sdk-php": "~3.0",
+        "aws/aws-sdk-php": "*",
         "guzzlehttp/guzzle": "*"
     },
     "suggest": {
